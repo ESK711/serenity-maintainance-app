@@ -1,0 +1,17 @@
+{
+  "name": "serenity-ss-maintainance",
+  "version": "1.0.0",
+  "main": "server.ts",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --exec ts-node src/server.ts"
+  },
+  "dependencies": {
+    "zone.js": "*"
+  },
+  "devDependencies": {
+    "@types/node": "*",
+    "ts-node": "*",
+    "typescript": "*"
+  }
+}
